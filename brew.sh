@@ -66,5 +66,15 @@ brew install rlwrap
 brew install ssh-copy-id
 brew install tree
 
+# Install casks that I use for all installations
+brew install alfred
+brew install iterm2
+brew install rectangle
+brew install bitwarden
+brew install linearmouse
+brew install visual-studio-code
+brew install firefox
+brew install obsidian
+
 # Remove outdated versions from the cellar.
 brew cleanup
