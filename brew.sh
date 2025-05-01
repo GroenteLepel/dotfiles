@@ -36,7 +36,12 @@ fi;
 brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
-brew install gnupg
+brew install gpg
+brew install pinentry-mac  # for password prompt linked to keychain
+
+# Install Colima for Docker (and Docker compose)
+brew install colima
+brew services start colima
 
 # Install more recent versions of some macOS tools.
 brew install grep
@@ -69,6 +74,7 @@ brew install tree
 # Install casks that I use for all installations
 brew install alfred
 brew install iterm2
+brew install signal
 brew install rectangle
 brew install bitwarden
 brew install linearmouse
