@@ -16,6 +16,7 @@ apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 flatpak install flathub md.obsidian.Obsidian
+flatpak install flathub com.prusa3d.PrusaSlicer
 
 snap install signal-desktop
 snap install firefox
