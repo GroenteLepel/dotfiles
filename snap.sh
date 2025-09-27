@@ -12,12 +12,15 @@ fi
 cp /usr/share/applications/syncthing-start.desktop ~/.config/autostart/
 
 apt install ffmpeg
+apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+flatpak install flathub md.obsidian.Obsidian
 
 snap install signal-desktop
 snap install firefox
 snap install mailspring
 snap install vlc
 snap install transmission
-snap install obsidian
 snap install discord
 snap install steam
