@@ -81,6 +81,7 @@ brew install linearmouse
 brew install visual-studio-code
 brew install firefox
 brew install obsidian
+brew install tailscale
 
 # Remove outdated versions from the cellar.
 brew cleanup
