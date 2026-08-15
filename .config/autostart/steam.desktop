@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Steam
+Comment=Start Steam after logging in
+Exec=snap run steam -silent
+Icon=steam
+Terminal=false
+Hidden=false
+X-GNOME-Autostart-enabled=true
