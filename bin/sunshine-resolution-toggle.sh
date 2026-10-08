@@ -2,10 +2,10 @@
 
 set -euo pipefail
 
-OUTPUT="DisplayPort-2"
+OUTPUT="DP-3"
 HANDHELD_MODE="1280x800_90.00"
 DOCKED_MODE="2560x1440_120.00"
-STATE_FILE="/tmp/sunshine-resolution-state-DisplayPort-2"
+STATE_FILE="/tmp/sunshine-resolution-state-DP-3"
 LOG_FILE="/tmp/sunshine-resolution.log"
 
 log() {
